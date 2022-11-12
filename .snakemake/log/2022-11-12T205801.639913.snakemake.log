@@ -1,0 +1,4 @@
+KeyError in line 12 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
+'SMK_INPUT_DIR'
+  File "/home/jupyter-contacttonyliu/biof501-pipeline/main.smk", line 12, in <module>
+  File "/home/jupyter-contacttonyliu/.conda/envs/biof501/lib/python3.10/os.py", line 679, in __getitem__

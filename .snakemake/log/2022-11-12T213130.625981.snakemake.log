@@ -1,0 +1,2 @@
+SyntaxError in line 43 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
+EOF in multi-line statement (main.smk, line 43)

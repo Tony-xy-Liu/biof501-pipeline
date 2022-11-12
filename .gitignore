@@ -1,4 +1,6 @@
 /data/
+/lib/*
+!/lib/*.sh
 cache/
 
 .ipynb_checkpoints/
