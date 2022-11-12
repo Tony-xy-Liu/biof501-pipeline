@@ -1,6 +1,0 @@
-SystemExit in line 18 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
-2
-  File "/home/jupyter-contacttonyliu/biof501-pipeline/main.smk", line 18, in <module>
-  File "/home/jupyter-contacttonyliu/.conda/envs/biof501/lib/python3.10/argparse.py", line 1829, in parse_args
-  File "/home/jupyter-contacttonyliu/.conda/envs/biof501/lib/python3.10/argparse.py", line 2583, in error
-  File "/home/jupyter-contacttonyliu/.conda/envs/biof501/lib/python3.10/argparse.py", line 2570, in exit

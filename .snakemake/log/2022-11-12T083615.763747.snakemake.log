@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in rule spades  in line 5 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
-Missing input files for rule spades:
-    affected files:
-        /home/jupyter-contacttonyliu/biof501-pipeline/workspace/reads.fastq

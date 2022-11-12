@@ -1,3 +1,0 @@
-TypeError in line 45 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
-not enough arguments for format string
-  File "/home/jupyter-contacttonyliu/biof501-pipeline/main.smk", line 45, in <module>

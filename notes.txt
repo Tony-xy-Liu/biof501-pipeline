@@ -1,1 +1,5 @@
 http://eggnog5.embl.de/download/emapperdb-5.0.2/
+
+wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR020493/SRR020493
+fastq-dump SRR020493
+rm SRR020493

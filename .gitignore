@@ -3,5 +3,9 @@
 !/lib/*.sh
 cache/
 
+/workspace
+
 .ipynb_checkpoints/
+.snakemake/
 __pycache__/
+/.*

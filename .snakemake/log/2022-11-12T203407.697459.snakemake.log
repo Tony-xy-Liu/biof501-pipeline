@@ -1,2 +1,0 @@
-SyntaxError in line 10 of /home/jupyter-contacttonyliu/biof501-pipeline/main.smk:
-Unexpected keyword pass in rule definition (main.smk, line 10)
