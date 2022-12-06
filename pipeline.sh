@@ -5,14 +5,17 @@ cd $SCRIPT_DIR
 
 case $1 in
     run)
-        export SMK_INPUT_DIR=$2
-        snakemake -s main.smk -c12 -d $SCRIPT_DIR/workspace --keep-incomplete
+        export SMK_INPUT=$2
+        snakemake -s main.smk -c12 --keep-incomplete
     ;;
-    spades)
-        singularity run lib/spades.sif spades.py ${*: 2:99}
+    checkm)
+        singularity run lib/checkm.sif checkm.py ${*: 2:99}
     ;;
-    maxbin2)
-        singularity run lib/maxbin2 run_MaxBin.pl ${*: 2:99}
+    prodigal)
+        singularity run lib/prodigal.sif run_MaxBin.pl ${*: 2:99}
+    ;;
+    concoct)
+        singularity run lib/concoct.sif run_MaxBin.pl ${*: 2:99}
     ;;
     diamond)
         lib/diamond ${*: 2:99}
